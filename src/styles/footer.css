@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    padding: 30px;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+
+}
+.first{
+    flex: 30%;
+}
+.second, .third, .fourth{
+    flex: 15%;
+}
+.second li, .third li, .fourth li{
+    padding-top: 10px;
+}
+.fifth{
+    flex: 25%;
+
+}
+h4{
+    text-align: center;
+    padding-right: 50px;
+}
+li{
+    list-style: none;
+}
+.input-cont{
+   display: flex;
+   margin-right: 20px;
+   padding-bottom: 163px;
+}
+.input-cont input{
+    height: 35px;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 200px;
+}
+.input-cont i{
+    transform: translateX(-30px);
+    /* position: absolute;
+    top: 137px;
+    right: 45px; */
+}
+.icons-cont{
+    margin-top: 0px;
+    display: flex;
+    max-width: 250px;
+    justify-content: space-around;
+}
